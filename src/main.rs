@@ -255,7 +255,7 @@ fn main() -> std::io::Result<()> {
     world[halfway_idx] = 1;
 
     display_rule_array(rule_array);
-    println!("   In binary: {:08.b}", rule);
+    println!("   In binary: {:08b}", rule);
 
     let mut my_output: String = "".to_string();
     
